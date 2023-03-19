@@ -1,7 +1,6 @@
 import React from "react";
 
-const ListOfGoals = ({goals}) => {
-    return (
+const ListOfGoals = ({goals}) => (
       <ul>
         {goals.map(({ goal, by} ,i) => (
         <li key={i}>
@@ -10,6 +9,5 @@ const ListOfGoals = ({goals}) => {
         ))}
       </ul>
     );
-}
 
 export default ListOfGoals;

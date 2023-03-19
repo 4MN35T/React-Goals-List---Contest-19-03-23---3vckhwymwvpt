@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const GoalForm = () => {
+const GoalForm = ({addGoal}) => {
     const [formData, setFormData] = useState({
       goal: "",
       by: ""

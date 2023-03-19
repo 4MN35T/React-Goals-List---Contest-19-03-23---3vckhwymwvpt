@@ -16,9 +16,9 @@ const App = () => {
       <GoalForm addGoal={addGoal} />
       <ListOfGoals goals={allGoals} />
     </div>
-  )
+  );
   
-}
+};
 
 
 export default App;
